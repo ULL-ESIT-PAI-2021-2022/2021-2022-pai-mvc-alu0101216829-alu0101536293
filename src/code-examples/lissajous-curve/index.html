@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>how canvas</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+		<link rel="stylesheet" href="css/mandelbrot.css">
+    <script type = 'module' defer src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="preamble">
+        <h1>Lissanjous Curves</h1>
+        <hr>
+        <p class="blurb"> Gabriel Rodriguez Hernandez. </p>
+      </div>
+      <div class="clearfix" id="ui-container">
+        <div class="interface clearfix noUi-target" id="m-interface">
+          <p>Phi: <span id="buttonPhi">0.00</span>
+            <input type="range" min="0.00" max="2.00" value="0.00" step="0.01" class="slider-bar" id="valuePhi" style="width: 300px;">
+          </p>
+        </div>
+        <div class="interface clearfix noUi-target" id="n-interface">
+          <p>A: <span id="buttonA">7</span>
+            <input type="range" min="1" max="20" value="7" step="1" class="slider-bar" id="valueA">
+          </p>
+        </div>
+        <div class="interface clearfix noUi-target" id="phi-interface">
+          <p>B: <span id="buttonB">6</span>
+            <input type="range" min="1" max="20" value="6" step="1" class="slider-bar" id="valueB">
+          </p>
+        </div>
+        <p>Φ animado:
+          <input type="checkbox" id="animarAngulo" style="display: visibility;" !checked>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

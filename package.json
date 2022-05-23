@@ -1,0 +1,28 @@
+{
+  "name": "2021-2022-pai-mvc-alu0101216829-alu0101536293",
+  "version": "1.0.0",
+  "description": "The github for the PAI-2021-2022 presentation.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-pai-mvc-alu0101216829-alu0101536293.git"
+  },
+  "keywords": [
+    "PAI",
+    "Javascript",
+    "MVC"
+  ],
+  "type": "module",
+  "author": "Gabriel Rodriguez Hernandez and Vlad-Marian Lupu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-pai-mvc-alu0101216829-alu0101536293/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-pai-mvc-alu0101216829-alu0101536293#readme"
+}
